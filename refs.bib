@@ -839,7 +839,7 @@
   Source                   = {Scopus}
 }
 
-@Conference{Thongtanunam2015168,
+@Conference{Thongtanunam2015-2,
   Title                    = {Investigating code review practices in defective files: An empirical study of the Qt system},
   Author                   = {Thongtanunam, P.a and McIntosh, S.b and Hassan, A.E.b and Iida, H.a},
   Year                     = {2015},
@@ -856,7 +856,7 @@
   Source                   = {Scopus}
 }
 
-@Conference{Thongtanunam2015141,
+@Conference{Thongtanunam2015-1,
   Title                    = {Who should review my code? A file location-based code-reviewer recommendation approach for Modern Code Review},
   Author                   = {Thongtanunam, P.a and Tantithamthavorn, C.a and Kula, R.G.b and Yoshida, N.c and Iida, H.a and Matsumoto, K.-I.a},
   Year                     = {2015},
@@ -1487,4 +1487,111 @@ month={July},}
   keywords = {data mining;public domain software;social networking (online);software engineering;GitHub;coding-related tasks;distributed social coding platform;open source collaboration;open source repositories mining;project communities;sampling techniques;software development;software domain;software engineering;systematic mapping study;Collaboration;Conferences;Data mining;Libraries;Software;Software engineering;Systematics;GitHub;open source software;systematic mapping study},
 }
 
+@InProceedings{hannebauer2016,
+  author    = {Hannebauer, Christoph and Patalas, Michael and St\"{u}nkel, Sebastian and Gruhn, Volker},
+  title     = {Automatically Recommending Code Reviewers Based on Their Expertise: An Empirical Comparison},
+  booktitle = {Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering},
+  year      = {2016},
+  series    = {ASE 2016},
+  pages     = {99--110},
+  address   = {New York, NY, USA},
+  publisher = {ACM},
+  acmid     = {2970306},
+  doi       = {10.1145/2970276.2970306},
+  isbn      = {978-1-4503-3845-5},
+  keywords  = {Code reviewer recommendation, code reviews, expertise metrics, issue tracker, open source, patches, recommendation system},
+  location  = {Singapore, Singapore},
+  numpages  = {12},
+  url       = {http://doi.acm.org/10.1145/2970276.2970306},
+}
+
+@InProceedings{xia2017,
+author={Z. Xia and H. Sun and J. Jiang and X. Wang and X. Liu},
+booktitle={2017 6th International Workshop on Software Mining (SoftwareMining)},
+title={A hybrid approach to code reviewer recommendation with collaborative filtering},
+year={2017},
+volume={},
+number={},
+pages={24-31},
+abstract={Code review is known to be of paramount importance for software quality assurance. However, finding a reviewer for certain code can be very challenging in Modern Code Review environment due to the difficulty of learning the expertise and availability of candidate reviewers. To tackle this problem, existing efforts mainly concern how to model a reviewer's expertise with the review history, and making recommendation based on how well a reviewer's expertise can meet the requirement of a review task. Nonetheless, as there are both explicit and implicit relations in data that affect whether a reviewer is suitable for a given task, merely modeling review expertise with explicit relations often fails to achieve expected recommendation accuracy. To that end, we propose a recommendation algorithm that takes implicit relations into account. Furthermore, we utilize a hybrid approach that combines latent factor models and neighborhood methods to capture implicit relations. Finally, we have conducted extensive experiments by comparing with the state-of-the-art methods using the data of 5 popular GitHub projects. The results demonstrate that our approach outperforms the comparing methods for all top-k recommendations and reaches a 15.3% precision promotion in top-1 recommendation.},
+keywords={collaborative filtering;recommender systems;software quality;candidate reviewers;code reviewer recommendation;hybrid approach;modern code review environment;recommendation accuracy;recommendation algorithm;review history;software quality assurance;Algorithm design and analysis;Collaboration;Data models;Feature extraction;Filtering;Software;Code reviewer;collaborative filtering;github},
+doi={10.1109/SOFTWAREMINING.2017.8100850},
+ISSN={},
+month={Nov},}
+
+
+@InProceedings{lee2013,
+author={J. B. Lee and A. Ihara and A. Monden and K. i. Matsumoto},
+booktitle={2013 20th Asia-Pacific Software Engineering Conference (APSEC)},
+title={Patch Reviewer Recommendation in OSS Projects},
+year={2013},
+volume={2},
+number={},
+pages={1-6},
+abstract={In an Open Source Software (OSS) project, many developers contribute by submitting source code patches. To maintain the quality of the code, certain experienced developers review each patch before it can be applied or committed. Ideally, within a short amount of time after its submission, a patch is assigned to a reviewer and reviewed. In the real world, however, many large and active OSS projects evolve at a rapid pace and the core developers can get swamped with a large number of patches to review. Furthermore, since these core members may not always be available or may choose to leave the project, it can be challenging, at times, to find a good reviewer for a patch. In this paper, we propose a graph-based method to automatically recommend the most suitable reviewers for a patch. To evaluate our method, we conducted experiments to predict the developers who will apply new changes to the source code in the Eclipse project. Our method achieved an average recall of 0.84 for top-5 predictions and a recall of 0.94 for top-10 predictions.},
+keywords={graph theory;project management;public domain software;recommender systems;source code (software);Eclipse project;OSS projects;graph-based method;open source software project;patch reviewer recommendation;source code patch;Accuracy;Erbium;History;Large scale integration;Predictive models;Software;Vectors;CVS;mining software repositories;patch reviewer recommendation;random walk},
+doi={10.1109/APSEC.2013.103},
+ISSN={1530-1362},
+month={Dec},}
+
+@InProceedings{yu2014-2,
+author={Y. Yu and H. Wang and G. Yin and C. X. Ling},
+booktitle={2014 IEEE International Conference on Software Maintenance and Evolution},
+title={Reviewer Recommender of Pull-Requests in GitHub},
+year={2014},
+volume={},
+number={},
+pages={609-612},
+abstract={Pull-Request (PR) is the primary method for code contributions from thousands of developers in GitHub. To maintain the quality of software projects, PR review is an essential part of distributed software development. Assigning new PRs to appropriate reviewers will make the review process more effective which can reduce the time between the submission of a PR and the actual review of it. However, reviewer assignment is now organized manually in GitHub. To reduce this cost, we propose a reviewer recommender to predict highly relevant reviewers of incoming PRs. Combining information retrieval with social network analyzing, our approach takes full advantage of the textual semantic of PRs and the social relations of developers. We implement an online system to show how the reviewer recommender helps project managers to find potential reviewers from crowds. Our approach can reach a precision of 74% for top-1 recommendation, and a recall of 71% for top-10 recommendation.},
+keywords={distributed processing;information retrieval;recommender systems;social networking (online);software quality;text analysis;GitHub;code contributions;distributed software development;information retrieval;pull-requests;reviewer recommender;social network;software projects quality;textual semantic;Communities;Conferences;Semantics;Social network services;Software;Software engineering;Distributed Software Development;Pull-request;Reviewer Recommendation;Social Network Analysis},
+doi={10.1109/ICSME.2014.107},
+ISSN={1063-6773},
+month={Sept},}
+
+@InProceedings{ouni2016,
+author={A. Ouni and R. G. Kula and K. Inoue},
+booktitle={2016 IEEE International Conference on Software Maintenance and Evolution (ICSME)},
+title={Search-Based Peer Reviewers Recommendation in Modern Code Review},
+year={2016},
+volume={},
+number={},
+pages={367-377},
+abstract={Code review is of primary importance in modern software development. It is widely recognized that peer review is an efficient and effective practice for improving software quality and reducing defect proneness. For successful review process, peer reviewers should have a deep experience and knowledge with the code being reviewed, and familiar to work and collaborate together. However, one of the main challenging tasks in modern code review is to find the most appropriate reviewers for submitted code changes. So far, reviewers assignment is still a manual, costly and time-consuming task. In this paper, we introduce a search-based approach, namely RevRec, to provide decision-making support for code change submitters and/or reviewers assigners to identify most appropriate peer reviewers for their code changes. RevRec aims at finding reviewers to be assigned for a code change based on their expertise and collaboration in past reviews using genetic algorithm (GA). We evaluated our approach on a benchmark of three open-source software systems, Android, OpenStack, and Qt. Results indicate that RevRec accurately recommends code reviewers with up to 59% of precision and 74% of recall. Our experiments provide evidence that leveraging reviewers expertise from their prior reviews and the socio-technical aspects of the team work and collaboration is relevant in improving the performance of peer reviewers recommendation in modern code review.},
+keywords={Android (operating system);decision making;genetic algorithms;public domain software;search problems;software quality;software reviews;source code (software);team working;Android;OpenStack;Qt;RevRec;code review;decision making support;genetic algorithm;open-source software systems;peer review;precision;recall;search-based approach;search-based peer reviewer recommendation;software development;software quality;team work socio-technical aspects;Genetic algorithms;Search problems;Sociology;Software;Software engineering;Teamwork;Code review;Reviewer recommendation;Search-based Software Engineeging},
+doi={10.1109/ICSME.2016.65},
+ISSN={},
+month={Oct},}
+
+@Article{fejzer2017,
+author="Fejzer, Miko{\l}aj
+and Przymus, Piotr
+and Stencel, Krzysztof",
+title="Profile based recommendation of code reviewers",
+journal="Journal of Intelligent Information Systems",
+year="2017",
+month="Aug",
+day="15",
+abstract="Code reviews consist in proof-reading proposed code changes in order to find their shortcomings such as bugs, insufficient test coverage or misused design patterns. Code reviews are conducted before merging submitted changes into the main development branch. The selection of suitable reviewers is crucial to obtain the high quality of reviews. In this article we present a new method of recommending reviewers for code changes. This method is based on profiles of individual programmers. For each developer we maintain his/her profile. It is the multiset of all file path segments from commits reviewed by him/her. It will get updated when he/she presents a new review. We employ a similarity function between such profiles and change proposals to be reviewed. The programmer whose profile matches the change most is recommended to become the reviewer. We performed an experimental comparison of our method against state-of-the-art techniques using four large open-source projects. We obtained improved results in terms of classification metrics (precision, recall and F-measure) and performance (we have lower time and space complexity).",
+issn="1573-7675",
+doi="10.1007/s10844-017-0484-1",
+url="https://doi.org/10.1007/s10844-017-0484-1"
+}
+
+@InProceedings{fu2017,
+author = {Fu, Chenbo and Zhou, Mingming and Xuan, Qi and Hu, Hong-Xiang},
+year = {2017},
+month = {12},
+pages = {149-155},
+title = {Expert recommendation in oss projects based on knowledge embedding},
+journal={International Workshop on Complex Systems and Networks (IWCSN)},
+
+}
+
+@article{liao2017,
+  title={Topic-Based Integrator Matching for Pull Request},
+  author={Zhifang Liao and Yanbing Li and Dayu He and Jinsong Wu and Yan Zhang and Xiaoping Fan},
+  journal={GLOBECOM 2017 - 2017 IEEE Global Communications Conference},
+  year={2017},
+  pages={1-6}
+}
 @Comment{jabref-meta: databaseType:bibtex;}
